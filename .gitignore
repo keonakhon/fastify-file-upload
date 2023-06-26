@@ -1,0 +1,19 @@
+# Local OS File
+**/.DS_Store
+
+# Environnment
+.env
+.env.production
+**/.env
+
+# Node.js & TypeScript
+**/node_modules
+**/package-lock.json
+**/dist
+
+# CERT
+*.crt
+*.key
+
+#Logs
+**/logs

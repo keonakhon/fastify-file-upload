@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "name": "service-file-upload:prod",
+      "script": "./dist/index.js",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

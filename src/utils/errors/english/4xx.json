@@ -1,0 +1,32 @@
+{
+  "NoPermissionToAccessImgPath": {
+    "statusCode": 401,
+    "error": "Unauthorized",
+    "message": "No permission to access this image path"
+  },
+  "NoTokenWasSent": {
+    "statusCode": 401,
+    "error": "Unauthorized",
+    "message": "No token was sent"
+  },
+  "UserDoesNotExist": {
+    "statusCode": 401,
+    "error": "Unauthorized",
+    "message": "User Does Not Exist"
+  },
+  "IncorrectAuthorization": {
+    "statusCode": 401,
+    "error": "Unauthorized",
+    "message": "Incorrect Authorization"
+  },
+  "ImageDoesNotExistOrYouDontHavePermission": {
+    "statusCode": 400,
+    "error": "Something Went Wrong",
+    "message": "Image Does Not Exist or You Don't Have Permission to Access This Image"
+  },
+  "ImageDoesNotExist": {
+    "statusCode": 404,
+    "error": "Not Found",
+    "message": "Image Does Not Exist"
+  }
+}
